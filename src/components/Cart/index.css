@@ -1,0 +1,28 @@
+.Cart-heading {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  min-width: 300px;
+  top: 50%;
+  left: 45%;
+  right: 50%;
+  bottom: 50%;
+}
+.cart-list {
+  padding: 0px;
+}
+.removeAllBtn {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  border: 1px solid rgb(58, 231, 11);
+  border-radius: 5px;
+  background-color: red;
+  border-style: none;
+  color: #fff;
+}
+@media screen and (min-width: 576px) {
+  .removeAllBtn {
+    height: 30px;
+    width: 100px;
+  }
+}

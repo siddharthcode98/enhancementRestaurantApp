@@ -1,0 +1,62 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-order-container {
+  display: flex;
+  align-items: center;
+}
+.nav-container {
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.cart-icon {
+  height: 25px;
+  width: 25px;
+}
+.cart-number {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  box-sizing: border-box;
+  padding-left: 3px;
+  background-color: chocolate;
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.restaurant-name {
+  text-decoration: none;
+  color: rgb(79, 146, 12);
+}
+@media screen and (max-width: 576px) {
+  .restaurant-name {
+    font-size: 15px;
+  }
+  .cart-number {
+    top: 1px;
+    right: 22px;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .restaurant-name {
+    font-size: 15px;
+  }
+  .cart-number {
+    top: 1px;
+    right: 22px;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    font-size: 6px;
+  }
+}

@@ -1,0 +1,15 @@
+.RemoveBtn {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  border: 1px solid rgb(58, 231, 11);
+  border-radius: 5px;
+  background-color: #008000;
+  border-style: none;
+  color: #fff;
+}
+@media screen and (min-width: 576px) {
+  .RemoveBtn {
+    height: 30px;
+    width: 100px;
+  }
+}

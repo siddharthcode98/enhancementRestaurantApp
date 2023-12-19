@@ -1,0 +1,15 @@
+.menu-category-button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  padding: 10px;
+  min-width: 100px;
+}
+.style-1 {
+  color: brown;
+  border-bottom: 1px solid brown;
+  font-weight: 600;
+}
+.style-2 {
+  color: black;
+}
