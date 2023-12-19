@@ -21,8 +21,8 @@ class FoodList extends Component {
     this.getFoodList()
   }
 
-  getUpdatedData = tableMenuList => {
-    return tableMenuList.map(eachMenu => ({
+  getUpdatedData = tableMenuList =>
+    tableMenuList.map(eachMenu => ({
       menuCategory: eachMenu.menu_category,
       menuCategoryId: eachMenu.menu_category_id,
       menuCategoryImage: eachMenu.menu_category_image,
@@ -39,7 +39,6 @@ class FoodList extends Component {
         addonCat: eachDish.addonCat,
       })),
     }))
-  }
 
   getFoodList = async () => {
     const dishesApiUrl =
@@ -55,12 +54,12 @@ class FoodList extends Component {
       })
     }
   }
-  
+
   onClickMenu = menuItem => {
     // console.log(menuItem);
     this.setState({activeId: menuItem})
   }
-  
+
   render() {
     const {loading, listOfItem, activeId} = this.state
     // console.log(listOfItem);
@@ -72,7 +71,7 @@ class FoodList extends Component {
     return (
       <main>
         {loading ? (
-          <Loader type="Oval" color={'green'} className="loader-style" />
+          <Loader type="Oval" color="green" className="loader-style" />
         ) : (
           <>
             <Header />

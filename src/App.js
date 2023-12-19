@@ -64,7 +64,7 @@ class App extends Component {
         cartList: prevState.cartList.map(item => {
           if (item.dishId === product.dishId) {
             return {...item, count: item.count - 1}
-          } 
+          }
           return item
         }),
       }))

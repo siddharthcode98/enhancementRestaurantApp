@@ -36,7 +36,7 @@ const Header = props => (
                 </button>
                 <p>My Orders</p>
                 <Link to="/cart" style={{textDecoration: 'none'}}>
-                  <button type="button">
+                  <button type="button" aria-label="link">
                     <AiOutlineShoppingCart className="cart-icon" />
                   </button>
                 </Link>
