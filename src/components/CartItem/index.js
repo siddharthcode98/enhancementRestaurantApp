@@ -49,7 +49,7 @@ const CartItem = props => {
             <div>
               <h1 className="dish-name">{dishName}</h1>
               <p className="font-weight-2">
-                {dishCurrency} {(quantity * dishPrice).toFixed(2)}
+                {dishCurrency} {(count * dishPrice).toFixed(2)}
               </p>
               <p className="dish-description">{dishDescription}</p>
               {dishAvailability && (
