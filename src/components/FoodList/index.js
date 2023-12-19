@@ -55,10 +55,12 @@ class FoodList extends Component {
       })
     }
   }
+  
   onClickMenu = menuItem => {
     // console.log(menuItem);
     this.setState({activeId: menuItem})
   }
+  
   render() {
     const {loading, listOfItem, activeId} = this.state
     // console.log(listOfItem);
